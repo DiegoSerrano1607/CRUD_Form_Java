@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package vista;
-import modelo.conexion; 
+ 
 
 /**
  *
@@ -16,11 +16,9 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        conexion cn = new conexion();
-        cn.abrir_conexion();
-        cn.cerrar_conexion();
-        //frm_persona frm = new frm_persona();
-        //frm.show();
+        
+        frm_persona frm = new frm_persona();
+        frm.show();
     }
     
 }

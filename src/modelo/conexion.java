@@ -27,7 +27,6 @@ public class conexion {
     
     public void abrir_conexion (){
             try{
-                
                 //codigo aca
                 Class.forName(jdbc);
                 conexionBD = DriverManager.getConnection(urlConexion,usuario,contra);
@@ -39,7 +38,6 @@ public class conexion {
     }
     public void cerrar_conexion (){
             try{
-                
                 //codigo aca
                 conexionBD.close();
             }catch(SQLException ex){
